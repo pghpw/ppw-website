@@ -5,8 +5,10 @@ PPW [% site.event_year %]
 [% WRAPPER menus/item %]
 <a href="[% make_uri('index.html') %]">About</a>
 [% END %]
+[% IF 0 %]
 [% WRAPPER menus/item %]
 <a href="[% make_uri('costs.html') %]">Price</a>
+[% END %]
 [% END %]
 [% WRAPPER menus/item %]
 <a href="[% make_uri('location.html') %]">Location</a>
